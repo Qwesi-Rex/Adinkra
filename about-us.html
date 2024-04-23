@@ -41,7 +41,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
+  <header id="header" class=" d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
       <!-- <h1 class="logo me-auto"><a href="index.html">Sailor</a></h1> -->
@@ -52,17 +52,19 @@
         <ul>
           <li><a href="index.html">Home</a></li>
 
-          <li><a href="#" class="active">About</a></li>
+          <li><a href="about-us.html" class="active">About Us</a></li>
 
-          <li class="dropdown"><a href="#"><span>Companies</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
+          <li class="dropdown"><a href="our-presence.html"><span>Our Presence</span>
+             <!-- <i class="bi bi-chevron-down"></i> -->
+            </a>
+            <!-- <ul>
               <li><a href="#">Adinkra Holdings</a></li>
               <li><a href="#">Adinkra Corporation</a></li>
               <li><a href="$">Adinkra Côte d'Ivoire</a></li>
-            </ul>
+            </ul> -->
           </li>
-          <li><a href="#">Projects</a></li>
-
+          <li><a href="our-brands.html">Our Brands</a></li>
+          <li><a href="#">Collaborate with Us</a></li>
           <li><a href="#">Contact</a></li>
           <!-- <li><a href="#" class="getstarted">Get Started</a></li> -->
         </ul>
@@ -85,7 +87,7 @@
 
      <!-- ======= About Section ======= -->
      <section id="about" class="about">
-        <div class="container-fluid">
+        <div class="container">
   
           <div class="row">
             <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
@@ -100,7 +102,10 @@
                    practices and regional growth.</p>
   
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                <div class="icon">
+                  <!-- <i class="bx bx-low-vision"></i> -->
+                  <ion-icon  size="large" name="diamond"></ion-icon>
+                </div>
                 <h4 class="title"><a href="">Vision</a></h4>
                 <p class="description">To transform the tobacco industry through responsible entrepreneurship, setting new standards 
                     for ethical business practices.</p>
@@ -113,13 +118,35 @@
               </div>
   
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-atom"></i></div>
+                <div class="icon">
+                  <ion-icon size="large" name="people-circle-outline"></ion-icon>
+                </div>
                 <h4 class="title"><a href="">The Team</a></h4>
                 <p class="description">Meet the African professionals and seasoned experts behind Adinkra SA who drive our success with dedication 
                     and expertise in the tobacco industry.</p>
               </div>
   
             </div>
+
+            <div class="col-lg-6">
+              <div class="ms-md-2 ms-lg-5"><img class="img-fluid rounded-3" src="assets/img/adinkra maps.png"></div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+              <h2>Our Companies</h2>
+                 In West Africa's tobacco industry, Adinkra SA's has spread it wings to following neighbouring countries.
+                 <div class="list-group pt-4 text-center">
+                  <button type="button" class="list-group-item list-group-item-success">Burkina Faso</button>
+                  <button type="button" class="list-group-item list-group-item-action">Gabon</button>
+                  <button type="button" class="list-group-item list-group-item-action">Gambia</button>
+                  <button type="button" class="list-group-item list-group-item-action">Guinea Bissau</button>
+                  <button type="button" class="list-group-item list-group-item-action">Togo</button>
+                  <button type="button" class="list-group-item list-group-item-action">Guinea Conakry</button>
+                  <button type="button" class="list-group-item list-group-item-action">Cameroon</button>
+                </div>
+             
+              
+            </div>
+
           </div>
   
         </div>
@@ -144,7 +171,7 @@
             <div class="col-md-6">
               <div class="icon-box">
                 <i class="bi bi-briefcase"></i>
-                <h4><a href="#">Explore Our Products</a></h4>
+                <h4><a href="our-brands.html">Explore Our Products</a></h4>
                 <p>View high-quality images and details of our tobacco brands and upcoming products.</p>
               </div>
             </div>
@@ -202,11 +229,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-              <p>
-                ADINKRA SA c/o LEVEL UP GESTION GROUP PLACE DE CORNAVIN 14-16 1201 GENEVE
-                <strong>Phone:</strong> +1 0000 00000 00<br>
-                <strong>Email:</strong> contact@adinkragroup.com<br>
-              </p>
+              
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -240,6 +263,9 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

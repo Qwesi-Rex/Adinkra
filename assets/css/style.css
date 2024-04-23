@@ -620,12 +620,23 @@ section {
   font-size: 32px;
 }
 
+.about .icon-box .icon ion-icon {
+  color:#1e6229;
+  font-size: 32px;
+}
+
+
+
 .about .icon-box:hover .icon {
   background: #1e6229;
   border-color: #1e6229;
 }
 
 .about .icon-box:hover .icon i {
+  color: #fff;
+}
+
+.about .icon-box:hover .icon ion-icon {
   color: #fff;
 }
 
@@ -750,6 +761,42 @@ section {
     transform: scale(1, 1);
     opacity: 0;
   }
+}
+
+
+
+/*--------------------------------------------------------------
+# Brands
+--------------------------------------------------------------*/
+.brands h2{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.brands .ap-services{
+  padding-left: 0px;
+}
+
+.brands .ap-services hr{
+  width: 10%;
+}
+
+.mapinfo{
+  -ms-flex-align: center;
+}
+
+.brands .ap-services li {
+  text-align: left;
+  padding-right: 0px;
+	list-style: none;
+	font-size: 15px;
+	color: #707079;
+	line-height: 42px;
+  text-transform: uppercase;
+}
+.brands .ap-services li i {
+	color: #016536;
+  font-size: 18px;
 }
 
 
@@ -879,6 +926,27 @@ section {
   background: #fff;
 }
 
+
+.about .content .more-btn {
+  display: inline-block;
+  background: rgb(11, 94, 47);
+  padding: 13px 30px 13px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.about .content .more-btn i {
+  font-size: 14px;
+}
+
+.about .content .more-btn:hover {
+  color: #1e6229;
+  font-size: 14px;
+  padding: 13px 30px 13px 30px;
+  border: 1px solid #006231;
+  background: #fff;
+}
 .why-us .icon-boxes .icon-box {
   text-align: center;
   border-radius: 10px;
