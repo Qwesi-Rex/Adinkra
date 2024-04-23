@@ -2740,6 +2740,16 @@ section {
     position: relative;
   }
 
+  .hero_2 {
+	
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    }
+
 
   #hero .btn-get-started {
     font-family: "Raleway", sans-serif;
