@@ -151,6 +151,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #1e6229;
+  font-weight: bold;
 }
 
 .navbar .getstarted,
@@ -357,6 +358,8 @@ h6 {
   position: relative;
 }
 
+
+
 #hero .carousel,
 #hero .carousel-inner,
 #hero .carousel-item,
@@ -499,6 +502,8 @@ h6 {
   border-radius: 25px;
 }
 
+
+
 @media (max-width: 992px) {
   #hero {
     height: 100vh;
@@ -590,6 +595,10 @@ section {
   font-size: 18px;
   color: #006231
   margin-bottom: 15px;
+}
+
+.about p{
+  color: #222222;
 }
 
 .about .icon-boxes h3 {
@@ -780,6 +789,79 @@ section {
 .brands .ap-services hr{
   width: 10%;
 }
+
+.project-1{
+  font-size: 50px;
+  font-weight: 800;
+  color: #111;
+  padding: 10px;
+}
+
+.project-1 span{
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.keynumbers{
+  display: inline-flex;
+}
+
+.brands-ll{
+  display: inline-flex;
+  padding: 10px;
+}
+
+.brands-ll img{
+  width: 120px;
+  height: 100px;
+  padding-right: 10px;
+}
+
+.brands-products img{
+  width: 120px;
+  height: auto;
+  padding-right: 10px;
+}
+
+
+.countries {
+
+}
+
+.countries img{
+  padding: 5px;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+}
+
+/* ----------- About-Flags ------------*/
+.flag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  text-align: center;
+}
+.flag-item {
+  margin: 15px;
+}
+.flag-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.flag-item p {
+  margin-top: 10px;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+.table .thead-dark{
+  background-color: #006231 !important;
+}
+
+
 
 .mapinfo{
   -ms-flex-align: center;
@@ -1180,6 +1262,14 @@ section {
 	background-position: center center;
 	background-repeat: no-repeat;
 	
+  }
+
+  .hero_3 {
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 
 
@@ -2711,8 +2801,9 @@ section {
 }
 
 
-
+/* //////////////////////////////////////--------------- 768px Medium -------------------//////////////////////// */
 @media only screen and (max-width: 768px) {
+
 
 
   #hero h2 {
@@ -2832,7 +2923,24 @@ section {
 
 .service-title p{
   font-size: 13px;
-  
+}
+
+.brands-ll{
+  display: block;
+  padding: 10px;
+}
+
+.brands-ll img{
+  width: 120px;
+  height: auto;
+  padding-right: 10px;
+}
+
+
+.brands-ll .dunhil{
+  width: 400px;
+  height: auto;
+  padding-right: 10px;
 }
 
 

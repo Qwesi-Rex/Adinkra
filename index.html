@@ -36,13 +36,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Sailor
-  * Updated: Jan 29 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -59,21 +53,48 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
 
-          <li><a href="about-us.html">About Us</a></li>
+          <li class="dropdown"><a href="about-us.html"><span>About</span>
+            <!-- <i class="bi bi-chevron-down"></i> -->
+           </a>
+           <!-- <ul>
+             <li><a href="#">Our Story</a></li>
+             <li><a href="#">Our Purpose</a></li>
+             <li><a href="$">Top Team</a></li>
+           </ul> -->
+         </li>
 
-          <li class="dropdown"><a href="our-presence.html"><span>Our Presence</span>
+          <li class="dropdown"><a href="our-business.html"><span>Our Business</span>
              <!-- <i class="bi bi-chevron-down"></i> -->
             </a>
             <!-- <ul>
-              <li><a href="#">Adinkra Holdings</a></li>
-              <li><a href="#">Adinkra Corporation</a></li>
-              <li><a href="$">Adinkra Côte d'Ivoire</a></li>
+              <li><a href="#">Tobacco</a></li>
+              <li><a href="#">Nicotine</a></li>
+              <li><a href="$">Other FMCG</a></li>
+              <li><a href="$">Products & Brands</a></li>
             </ul> -->
           </li>
-          <li><a href="our-brands.html">Our Brands</a></li>
-          <li><a href="#">Collaborate with Us</a></li>
-          <li><a href="#">Contact</a></li>
-          <!-- <li><a href="#" class="getstarted">Get Started</a></li> -->
+
+          <li class="dropdown"><a href="markets.html"><span>Markets</span>
+            <!-- <i class="bi bi-chevron-down"></i> -->
+           </a>
+           <!-- <ul>
+             <li><a href="#">Operation Markets</a></li>
+           </ul> -->
+         </li>
+
+
+          <li class="dropdown"><a href="news&events.html"><span>News & Events</span>
+            <!-- <i class="bi bi-chevron-down"></i> -->
+           </a>
+           <!-- <ul>
+             <li><a href="#">News</a></li>
+             <li><a href="#">Events</a></li>
+           </ul> -->
+         </li>
+
+
+         <li><a href="contatct.html"><span>Contact Us</span> </li>
+          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -90,12 +111,12 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/1.jpg)">
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/market2.jpg)">
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Welcome to Adinkra SA</h2>
-              <p class="animate__animated animate__fadeInUp">Pioneering a New Era in West Africa's Tobacco Industry</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              <p class="animate__animated animate__fadeInUp">A trusted Partner managing E2E distribution value chain</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Discover More</a>
             </div>
           </div>
         </div>
@@ -104,15 +125,16 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/2.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Discover Our Products</h2>
-              <p class="animate__animated animate__fadeInUp">Explore our wide range of renowned tobacco brands and upcoming nicotine-based alternatives.</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              <h2 class="animate__animated animate__fadeInDown">Discover Our Services</h2>
+              <p class="animate__animated animate__fadeInUp">Our services span supply chain, logistics, distribution,
+                sales and promotions with data-driven execution</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Discover More</a>
             </div>
           </div>
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/3.jpg)">
+        <!-- <div class="carousel-item" style="background-image: url(assets/img/slide/3.jpg)">
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Learn About Us</h2>
@@ -120,7 +142,7 @@
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
 
@@ -145,7 +167,7 @@
   <!-- End Hero -->
 
    <!-- ======= Why Us Section ======= -->
-   <section id="why-us" class="why-us">
+   <!-- <section id="why-us" class="why-us">
     <div class="container">
 
       <div class="row">
@@ -181,12 +203,14 @@
                 </div>
               </div>
             </div>
-          </div><!-- End .content-->
-        </div>
+          </div>
+       </div>
       </div>
 
     </div>
-  </section><!-- End Why Us Section -->
+  </section> -->
+  <!-- End Why Us Section -->
+
   <main id="main">
 
 
@@ -199,13 +223,20 @@
         <div class="row content">
           <div class="col-lg-6 align-self-center">
             <h2>Our Story</h2>
-            <p class="pb-3">From seizing a unique market opportunity to becoming a leader in West Africa's tobacco industry, Adinkra SA's journey
-              is one of ambition, innovation, and African ingenuity. Following the strategic exit of British American Tobacco from
-              key markets, Adinkra SA has risen to champion the tobacco sector with a deep commitment to ethical practices and
-              regional growth.
+            <p class="pb-3">Following the strategic exit of British American Tobacco from key markets, Adinkra SA has risen to champion the tobacco sector with a deep commitment to ethical practices and regional growth.
+              Today, we are expanding our horizons to others FMCGs categories to position ourselves as a multi-category player to seize untapped opportunities in Sub-Saharan Africa Frontier Markets set for tremendous growth.              
+            </p>
+
+            <h2>Our Purpose</h2>
+            <p class="pb-3">The global Market has faced unprecedented changes in the recent years where volatility and rapid trends shift are setting the new rules.
+              <br> <br>
+              African Market are not exempt from above facts and in addition to this, they have various peculiarities that make opportunities they offer difficult to seize.
+              <br> <br>
+              As Distribution professional, we intend to bridge the gap between international companies and the local players and make the downstream Market more profitable for them while ensuring a sustainable business for all stackholders
+               
             </p>
             <div class="pb-4">
-              <a href="about-us.html" class="more-btn ">Learn More <i class="bx bx-chevron-right"></i></a>
+              <a href="about-us.html" class="more-btn ">Discover More <i class="bx bx-chevron-right"></i></a>
             </div>
            
               
@@ -936,8 +967,7 @@
                 <div class="info-box">
                   <i class="bx bx-map"></i>
                   <h3>Our Address</h3>
-                  <p> ADINKRA SA c/o LEVEL UP GESTION GROUP<br>
-                     PLACE DE CORNAVIN 14-16 1201 GENEVE</p>
+                  <p> Abidjan, Cocody Riviera Golf, Laguna, D1</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -998,10 +1028,13 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-          
+              
+              <p>Address: Abidjan, Cocody Riviera Golf, Laguna, D1</p>
+              <p>E-mail: contact@adinkrasa.com</p>
+
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
